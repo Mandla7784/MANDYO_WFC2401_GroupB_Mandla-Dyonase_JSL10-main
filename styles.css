@@ -1,0 +1,49 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fdf6e3; /* Sand color, evoking desert adventures */
+    color: #333; /* Dark text for contrast */
+    padding: 20px;
+}
+
+h2 {
+    color: #b58900; /* Gold color for headings */
+    border-bottom: 2px solid #cb4b16; /* Darker orange underline for emphasis */
+}
+
+button {
+    background-color: #cb4b16; /* Rusty red, reminiscent of archaeological sites */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px #888888;
+}
+
+button:hover {
+    background-color: #dc322f; /* Slightly brighter red for hover effect */
+}
+
+p {
+    background-color: #eee8d5; /* Light sand color for paragraph backgrounds */
+    padding: 15px;
+    border-left: 5px solid #b58900; /* Gold color for a touch of adventure */
+}
+
+/* Adding Indiana Jones themed emojis */
+button:before {
+    content: '🔍 ';
+}
+
+#room1Result:before, #room2Result:before, #room3Result:before {
+    content: '🗝️ ';
+}
+
+/* Styling for results to stand out */
+#room1Result, #room2Result, #room3Result {
+    margin-top: 10px;
+    color: #2aa198; /* Calm teal for results, suggesting oasis or treasure */
+    font-weight: bold;
+}
